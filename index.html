@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Map multitouch prototype</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://openlayers.org/api/OpenLayers.js"></script>
+		
+		<!-- Patch in scroll wheel fixes -->
+		<script type="text/javascript" src="MouseWheelMonkeyPatches.js"></script>
+		
+		<!-- Patch in Multitouch additions -->
+		<script type="text/javascript" src="MultitouchHandler.js"></script>
+		<script type="text/javascript" src="MultitouchNavigation.js"></script>
+		<script type="text/javascript" src="MomentumPan.js"></script>
+		
+		
+		<script type="text/javascript" src="TileLayer.js"></script>
+		<script type="text/javascript" src="map.js"></script>
+		
+		<meta name="apple-mobile-web-app-capable" content = "yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content = "black-translucent" />
+		<meta name="viewport" content = "initial-scale = 1.0, user-scalable = no" />
+		<style>
+			html, body, #map { width: 100%; height: 100%; margin: 0px; padding: 0px; }
+		</style>
+    </head>
+	
+	<body>
+		<div id="map"></div>
+	</body>
+</html>

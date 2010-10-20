@@ -4,6 +4,9 @@ OpenLayers multitouch
 
 We have created a number of related patches to OpenLayers around the overall goal of having it work well in iPhone/iPad's Mobile Safari (only preliminary testing in Android).
 
+`View demo`_
+
+.. _View demo: http://andyet.github.com/OpenLayers-Multitouch
 
 Scroll wheel tweaks
 -------------------

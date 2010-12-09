@@ -6,7 +6,10 @@ We have created a number of related patches to OpenLayers around the overall goa
 
 `View demo`_
 
+This code is licensed under the `same terms as OpenLayers`_ itself.
+
 .. _View demo: http://andyet.github.com/OpenLayers-Multitouch
+.. _same terms as OpenLayers: http://svn.openlayers.org/trunk/openlayers/license.txt
 
 Scroll wheel tweaks
 -------------------
